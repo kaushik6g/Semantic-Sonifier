@@ -1,0 +1,7 @@
+models:
+  device: "cpu"
+  torch_dtype: "float32"
+
+audio:
+  default_duration: 8
+  max_duration: 15

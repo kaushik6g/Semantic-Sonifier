@@ -1,0 +1,30 @@
+audio:
+  default_duration: 10
+  max_duration: 30
+  output_format: wav
+  sample_rate: 32000
+models:
+  blip2_model: Salesforce/blip2-opt-2.7b
+  clip_model: openai/clip-vit-base-patch32
+  device: auto
+  mood_tags:
+  - serene
+  - happy
+  - melancholic
+  - energetic
+  - peaceful
+  - chaotic
+  - mysterious
+  - romantic
+  - dramatic
+  - calm
+  - joyful
+  - somber
+  - intense
+  - light
+  - dark
+  - dreamy
+  musicgen_model: facebook/musicgen-small
+  torch_dtype: float16
+project_name: semantic-sonifier
+version: 0.1.0
